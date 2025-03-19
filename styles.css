@@ -1,0 +1,67 @@
+/* Background Image */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* White text for better contrast */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url('wallpapersden.com_venom-x-pubg-mobile_3840x2160.jpg'); /* Add your background image here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+/* Container Styling */
+.container {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  backdrop-filter: blur(5px); /* Adds a blur effect to the background */
+}
+
+h1 {
+  color: #e91e63; /* Pink color for the heading */
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Video Section Styling */
+.video-section {
+  margin: 20px 0;
+}
+
+video {
+  width: 80%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.video-section .caption {
+  font-size: 1rem;
+  color: #ccc; /* Light gray for captions */
+  font-style: italic;
+}
+
+/* Gift Section Styling */
+.gift img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.gift p {
+  font-size: 1.2rem;
+  color: #e91e63; /* Pink color for gift text */
+  font-weight: bold;
+}
